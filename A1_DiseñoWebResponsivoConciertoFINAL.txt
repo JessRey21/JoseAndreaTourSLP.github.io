@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            font-size: 3em;
+            margin: 0;
+        }
+        h2 {
+            color: #CC7A00;
+            margin: 30px 0 10px;
+        }
+        .title-center {
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+        }
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            gap: 40px;
+        }
+        .left-column {
+            flex: 1;
+        }
+        .right-column {
+            flex: 1;
+            text-align: center;
+        }
+        .first-image {
+            width: 500px;
+            height: auto;
+            margin: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+        }
+        table, th, td {
+            border: 1px solid #CC7A00;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        th {
+            background-color: #CC7A00;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+        }
+        a {
+            color: #CC7A00;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .protocol-list {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>José Andrea Tour</h1>
+    <h2 class="title-center">San Luis Potosí</h2>
+
+    <div class="container">
+        <div class="flex-container">
+           <div class="left-column">
+                <p style="text-align: justify;">José Andrea, ex vocalista del grupo de Mago de Oz se presentará en San Luis Potosí el 31 de Octubre del 2024 a las 10:00 de la noche en el Foro Bunker 57 (Av. Benito Juárez #1158, Valle Dorado).</p>
+                <p style="text-align: justify;">Matar Al Rey - La Danza Del Fuego - Gaia - La Costa Del Silencio - Desde Mi Cielo - Alma - Molino De Viento - Jesús De Chmberí - Fiesta Pagiana - Astaroth... y más de 2 horas de show...</p>
+                <p style="text-align: justify;">José Mario Martínez Arroyo Gonzalez, más conocido como José Andrëa es un cantante Boliviano, famoso por su trabajo con el grupo de folk metal Mägo de Oz, grupo español, el cual abandonó en 2011 para convertirse en vocalista y líder de la banda José Andrëa y Uróboros.</p>
+           </div>
+            <div class="right-column">
+                <a href="https://www.sonica.mx/u/fotografias/m/2021/9/8/f608x342-9940_39663_5050.jpg" target="_blank">
+                    <img src="https://www.sonica.mx/u/fotografias/m/2021/9/8/f608x342-9940_39663_5050.jpg" alt="Descripción de la imagen" class="first-image">
+                </a>
+            </div>
+        </div>
+
+        <h2 style="text-align: left;">Boletos y costos:</h2>
+        <table>
+            <tr>
+                <th>Precios</th>
+                <th>Tipo</th>
+                <th>Especificaciones</th>
+            </tr>
+            <tr>
+                <td>$1500</td>
+                <td>Cargo incluido - Boleto VIP + Meet & Greet</td>
+                <td><p style="text-align: justify;">Acceso preferencias, convivencia con José Andrea antes del evento, fotografía digital oficial con José Andrea y póster oficial.</p></td>
+            </tr>
+            <tr>
+                <td>$800</td>
+                <td>Cargo incluido - General</td>
+                <td><p style="text-align: justify;">Acceso a zona general del recinto</p></td>
+            </tr>
+        </table>
+
+        <h2 style="text-align: left;">Protocolo</h2>
+        <ul class="protocol-list">
+            <li>Está prohibido ingresar al recinto con bebidas y alimentos, únicamente el agua embotellada está permitida.</li>
+            <li>Está prohibido el ingreso al recinto con sustancias nocivas, ilegales y estupefacientes de cualquier índole.</li>
+            <li>Queda estrictamente prohibido el acceso con armas de cualquier tipo ni elementos punzocortantes.</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <a href="https://tienda.proudmarybooking.com/producto/jose-andrea-slp-vipmg/">Boleto $1500</a>
+        <a href="https://tienda.proudmarybooking.com/producto/jose-andrea-slp-general/">Boleto $800</a> 
+    </div>
+
+</body>
+</html>
